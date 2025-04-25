@@ -59,8 +59,8 @@ This project aims to predict whether passengers aboard the Spaceship Titanic wer
 * `Age` had a relatively normal distribution with some outliers.
 
  <img src="eda&results/boxplot.png"> 
- <img src="eda&results/histogram"> 
- <img src="eda&results/heatmap"> 
+ <img src="eda&results/histogram.png"> 
+ <img src="eda&results/heatmap.png"> 
  
 ## 4. Model Training
 **Objective**: Train and evaluate multiple models to predict `Transported`.
@@ -79,6 +79,8 @@ Neural network using TensorFlow/Keras.
 * Performed 5-fold cross-validation on all models using `cross_val_score`.
 * Random Forest Classifier achieved the highest mean accuracy (~0.793).
 
+ <img src="eda&results/accuracy.png"> 
+ 
 **Deep Learning:**
 * Built a Sequential model with two hidden layers (64 and 32 units, ReLU activation), dropout (0.3), and a sigmoid output layer.
 * Compiled with `adam` optimizer and `binary_crossentropy` loss.
@@ -96,7 +98,7 @@ Neural network using TensorFlow/Keras.
 
 Ran 10 trials with `EarlyStopping`.
 Best hyperparameters:
-* Units: 64 (layer 1), 64 (layer 2).
+* Units: 64 (layer 1), 64 (layer 2).  
 * Dropout: 0.3 (both layers).
 * Optimizer: `adam`.
 
@@ -104,6 +106,9 @@ Trained final model with best hyperparameters, achieving ~0.73 test accuracy.
 
 **Outcome**: Tuning slightly improved validation accuracy (~0.77), but test accuracy remained comparable to the initial model.
 
+ <img src="eda&results/dnn_validation_loss.png"> 
+ <img src="eda&results/dnn_validation_accuracy.png"> 
+ 
 ## 6. Prediction and Submission
 **Objective**: Generate predictions for the test dataset and prepare a submission file.
 **Actions**:
