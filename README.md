@@ -4,7 +4,7 @@ This project aims to predict whether passengers aboard the Spaceship Titanic wer
 
 ## Project Structure
 **Data:** 
-* train.csv: Training dataset with passenger details and the target variable  `\*Transported`.
+* train.csv: Training dataset with passenger details and the target variable  `Transported`.
 * test.csv: Test dataset for generating predictions.
 
 **Notebook:** titanic-spaceship (1).ipynb contains the complete implementation.
