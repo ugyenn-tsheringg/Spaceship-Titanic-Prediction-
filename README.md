@@ -2,7 +2,9 @@
 ## Overview
 This project aims to predict whether passengers aboard the Spaceship Titanic were transported to another dimension following a cosmic anomaly. Using a dataset from a Kaggle competition, I implemented machine learning and deep learning models to classify passengers based on various features such as age, home planet, and spending on amenities. The project involves data preprocessing, exploratory data analysis (EDA), model training, hyperparameter tuning, and submission preparation.
 
+<div>
 <img src="eda&results/precision, recall, f1_score.png> 
+</div>
 
 ## Project Structure
 **Data:** 
