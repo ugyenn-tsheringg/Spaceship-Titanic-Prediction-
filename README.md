@@ -58,8 +58,10 @@ This project aims to predict whether passengers aboard the Spaceship Titanic wer
 * Spending columns showed significant outliers, indicating varied passenger spending behaviors.
 * `Age` had a relatively normal distribution with some outliers.
 
-Visual Results: (Add boxplot visualizations here)
-
+ <img src="eda&results/boxplot.png"> 
+ <img src="eda&results/histogram"> 
+ <img src="eda&results/heatmap"> 
+ 
 ## 4. Model Training
 **Objective**: Train and evaluate multiple models to predict `Transported`.
 **Models**:
